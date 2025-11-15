@@ -2,4 +2,4 @@
 ## Проект 
 Этот репозиторий является каркасом для будущего веб-приложения. 
 ## Ссылки
-- [Публичная страница на GitHub Pages](hhttps://artyamkas.github.io/dpo-backfront-pr-1/)
+- [Публичная страница на GitHub Pages](https://artyamkas.github.io/dpo-backfront-pr-1/)
