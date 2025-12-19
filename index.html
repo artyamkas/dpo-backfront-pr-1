@@ -6,97 +6,110 @@
     <meta property="og:type" content="website" />
     <meta property="og:image" content="https://artyamkas.github.io/dpo-backfront-pr-1/assets/img/Image.png"/>
     <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="stylesheet" href="styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Авион мебель</title>
 </head>
 <body>
-    <header>
-        <div id="logo-and-user">
-            <img src="./assets/icons/Search.png" alt="Поиск по странице">
-            <img src="./assets/img/logo.png" alt="Логотип компании">
-            <img src="./assets/icons/Shopping--cart.png" alt="Корзина">
-            <img src="./assets/icons/User--avatar.png" alt="Профиль пользавателя">
+    <header class="header">
+        <div id="logo-and-user" class="header__top">
+            <div class="header__top__search"><img src="./assets/icons/Search.png" alt="Поиск по странице"></div>
+            <a href="#"><img src="./assets/img/logo.png" alt="Логотип компании"></a>
+            <div class="header__top__user">
+                <img src="./assets/icons/Shopping--cart.png" alt="Корзина">
+                <img src="./assets/icons/User--avatar.png" alt="Профиль пользавателя">
+            </div>
         </div>
-        <nav>
+        <nav class="header__bottom">
             <ul>
-                <li><a href="#plant-pots">Горшки для цветов</a></li>
+                <li><a href="#popular">Бестселлеры</a></li>
                 <li><a href="#ceramics">Керамика</a></li>
-                <li><a href="#tables">Столы</a></li>
-                <li><a href="#chairs">Стулья</a></li>
-                <li><a href="#crockery">Посуда</a></li>
-                <li><a href="#cutlery">Столовые приборы</a></li>
+                <li><a href="#club">Клуб</a></li>
+                <li><a href="#history">История</a></li>
+                <li><a href="#advantages">Преимущества</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="promo">
+    <main class="main-part">
+        <section id="promo" class="main-part__promo">
             <h1>Бренд мебели на&nbsp;будущее с&nbsp;неустаревающим дизайном</h1>
-            <button autofocus onclick="window.location.href='#collections'">Наши коллекции</button>
+            <button onclick="window.location.href='#footer'">Наши коллекции</button>
             <p>В&nbsp;своём стремлении повысить качество жизни, они забывают, что высококачественный прототип будущего проекта позволяет оценить значение прогресса профессионального сообщества.</p>
             <img src="./assets/img/RightImage.png" alt="Стул из новой коллекции">
         </section>
-        <section id="advantages">
-            <h2>Что нас выделяет среди других</h2>
-            <div>
-                <img src="./assets/icons/Delivery.png" alt="Иконка едущего грузовика">
-                <h3>Доставка на&nbsp;следующий день</h3>
-                <p>Сложно сказать, почему непосредственные участники технического прогресса будут объединены в&nbsp;целые кластеры себе подобных.</p>
-            </div>
-            <div>
-                <img src="./assets/icons/Checkmark--outline.png" alt="Подтверждающая галочка">
-                <h3>Сделано профессионалами</h3>
-                <p>Имеется спорная точка зрения, гласящая примерно следующее: непосредственные участники технического прогресса набирают популярность среди определенных слоев населения, а&nbsp;значит, должны быть объявлены нарушающими общечеловеческие нормы этики и&nbsp;морали.</p>
-            </div>
-            <div>
-                <img src="./assets/icons/Purchase.png" alt="Иконка банковской карты">
-                <h3>Приятные цены</h3>
-                <p>Прежде всего, постоянный количественный рост и&nbsp;сфера нашей активности предопределяет высокую востребованность анализа существующих паттернов поведения.</p>
-            </div>
-            <div>
-                <img src="./assets/icons/Sprout.png" alt="Иконка маленького ростка">
-                <h3>Забота об экологии</h3>
-                <p>Учитывая ключевые сценарии поведения, высококачественный прототип будущего проекта позволяет выполнить важные задания по&nbsp;разработке позиций, занимаемых участниками в&nbsp;отношении поставленных задач.</p>
+        <section id="advantages" class="main-part__advantages">
+            <h2>Что выделяет нас среди других</h2>
+            <div class="main-part__advantages__cards">
+                <div>
+                    <img src="./assets/icons/Delivery.png" alt="Иконка едущего грузовика">
+                    <h3>Доставка на&nbsp;следующий день</h3>
+                    <p>Сложно сказать, почему непосредственные участники технического прогресса будут объединены в&nbsp;целые кластеры себе подобных.</p>
+                </div>
+                <div>
+                    <img src="./assets/icons/Checkmark--outline.png" alt="Подтверждающая галочка">
+                    <h3>Сделано профессионалами</h3>
+                    <p>Имеется спорная точка зрения, гласящая примерно следующее: непосредственные участники технического прогресса набирают популярность среди определенных слоев населения.</p>
+                </div>
+                <div>
+                    <img src="./assets/icons/Purchase.png" alt="Иконка банковской карты">
+                    <h3>Приятные цены</h3>
+                    <p>Прежде всего, постоянный количественный рост и&nbsp;сфера нашей активности предопределяет высокую востребованность анализа существующих паттернов поведения.</p>
+                </div>
+                <div>
+                    <img src="./assets/icons/Sprout.png" alt="Иконка маленького ростка">
+                    <h3>Забота об экологии</h3>
+                    <p>Учитывая ключевые сценарии поведения, высококачественный прототип будущего проекта позволяет выполнить важные задания по&nbsp;разработке позиций, занимаемых участниками в&nbsp;отношении поставленных задач.</p>
+                </div>
             </div>
         </section>
-        <section id="ceramics">
+        <section id="ceramics" class="main-part__ceramics">
             <h2>Неповторимая керамика</h2>
-            <div>
-                <img src="./assets/img/Photo.png" alt="Прикольный стул">
-                <p>Прикольный стул</p>
-                <p>3000 ₽</p>
+            <div class="main-part__ceramics__cards">
+                <div>
+                    <img src="./assets/img/Photo.png" alt="Прикольный стул">
+                    <p>Прикольный стул</p>
+                    <p>3000 ₽</p>
+                </div>
+                <div>
+                    <img src="./assets/img/Photo(1).png" alt="Серая ваза">
+                    <p>Серая ваза</p>
+                    <p>1500 ₽</p>
+                </div>
+                <div>
+                    <img src="./assets/img/Photo(3).png" alt="Загадочный стул">
+                    <p>Загадочный стул</p>
+                    <p>3100 ₽</p>
+                </div>
+                <div>
+                    <img src="./assets/img/Photo(2).png" alt="Лампа &laquo;Люсии&raquo;">
+                    <p>Лампа &laquo;Люсии&raquo;</p>
+                    <p>4500 ₽</p>
+                </div>
             </div>
-            <div>
-                <img src="./assets/img/Photo(1).png" alt="Серая ваза">
-                <p>Серая ваза</p>
-                <p>1500 ₽</p>
-            </div>
-            <div>
-                <img src="./assets/img/Photo(2).png" alt="Лампа &laquo;Люсии&raquo;">
-                <p>Лампа &laquo;Люсии&raquo;</p>
-                <p>4500 ₽</p>
-            </div>
-            <button onclick="window.location.href='#collection-ceramics'">Вся коллекция</button>
+            <button onclick="window.location.href='#footer'">Вся коллекция</button>
         </section>
-        <section id="popular">
+        <section id="popular" class="main-part__popular">
             <h2>Популярные товары</h2>
-            <div>
-                <img src="./assets/img/Large.png" alt="Уютный диван">
-                <p>Уютный диван</p>
-                <p>17500 ₽</p>
+            <div class="main-part__popular__cards">
+                <div>
+                    <img src="./assets/img/Large.png" alt="Уютный диван">
+                    <p>Уютный диван</p>
+                    <p>17500 ₽</p>
+                </div>
+                <div>
+                    <img src="./assets/img/Photo.png" alt="Прикольный стул">
+                    <p>Прикольный стул</p>
+                    <p>3000 ₽</p>
+                </div>
+                <div>
+                    <img src="./assets/img/Photo(3).png" alt="Загадочный стул">
+                    <p>Загадочный стул</p>
+                    <p>3100 ₽</p>
+                </div>
             </div>
-            <div>
-                <img src="./assets/img/Photo.png" alt="Прикольный стул">
-                <p>Прикольный стул</p>
-                <p>3000 ₽</p>
-            </div>
-            <div>
-                <img src="./assets/img/Photo(3).png" alt="Загадочный стул">
-                <p>Загадочный стул</p>
-                <p>3100 ₽</p>
-            </div>
-            <button onclick="window.location.href='#collection-popular'">Вся подборка</button>
+            <button onclick="window.location.href='#footer'">Вся подборка</button>
         </section>
-        <section id="club">
+        <section id="club" class="main-part__club">
             <h2>Вступай в&nbsp;уютный клуб и&nbsp;получай бонусы</h2>
             <p>В&nbsp;частности, высококачественный прототип будущего проекта выявляет срочную потребность кластеризации усилий.</p>
             <form action="/login" method="GET">
@@ -104,7 +117,7 @@
                 <button type="submit">Войти</button>
             </form>
         </section>
-        <section id="history">
+        <section id="history" class="main-part__history">
             <h2>От&nbsp;маленького производства до&nbsp;крупного поставщика с&nbsp;множеством позиций</h2>
             <p>Предварительные выводы неутешительны: повышение уровня гражданского сознания прекрасно подходит для реализации позиций, занимаемых участниками в&nbsp;отношении поставленных задач.</p>
             <p>Таким образом, начало повседневной работы по&nbsp;формированию позиции требует анализа благоприятных перспектив.</p>
@@ -112,52 +125,58 @@
             <button onclick="window.location.href='#advantages'">Подробнее</button>
         </section>
     </main>
-    <footer>
-        <section id="options">
-            <div>
-                <h3>Меню</h3>
-                <ul>
-                    <li><a href="#logo-and-user">Новинки</a></li>
-                    <li><a href="#popular">Товары недели</a></li>
-                    <li><a href="#promo">Все товары</a></li>
-                </ul>
+    <footer id="footer" class="footer">
+        <section id="options" class="footer__nav">
+            <div class="footer__nav__links">
+                <div>
+                    <h3>Меню</h3>
+                    <ul>
+                        <li><a href="#popular">Бестселлеры</a></li>
+                        <li><a href="#ceramics">Керамика</a></li>
+                        <li><a href="#club">Клуб</a></li>
+                        <li><a href="#history">История</a></li>
+                        <li><a href="#advantages">Преимущества</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Категории</h3>
+                    <ul>
+                        <li><a href="#">Горшки для цветов</a></li>
+                        <li><a href="#">Керамика</a></li>
+                        <li><a href="#">Столы</a></li>
+                        <li><a href="#">Стулья</a></li>
+                        <li><a href="#">Посуда</a></li>
+                        <li><a href="#">Столовые приборы</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Компания</h3>
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Работа у нас</a></li>
+                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#">Политика компании</a></li>
+                        <li><a href="#">Возвраты</a></li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <h3>Категории</h3>
-                <ul>
-                    <li><a href="#plant-pots">Горшки для цветов</a></li>
-                    <li><a href="#ceramics">Керамика</a></li>
-                    <li><a href="#tables">Столы</a></li>
-                    <li><a href="#chairs">Стулья</a></li>
-                    <li><a href="#crockery">Посуда</a></li>
-                    <li><a href="#cutlery">Столовые приборы</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Компания</h3>
-                <ul>
-                    <li><a href="#logo-and-user">О нас</a></li>
-                    <li><a href="#logo-and-user">Работа у нас</a></li>
-                    <li><a href="#logo-and-user">Контакты</a></li>
-                    <li><a href="#logo-and-user">Политика компании</a></li>
-                    <li><a href="#logo-and-user">Возвраты</a></li>
-                </ul>
-            </div>
-            <div>
+            <div class="footer__nav__email">
                 <form action="/emailsub" method="GET">
                     <fieldset>
                         <legend>Подписаться на рассылку</legend>
                         <input type="email" name="email" id="sub_email" placeholder="your-email@mail.ru" required>
-                        <button type="submit">Подписаться</button>
+                        <button disabled type="submit">Подписаться</button>
                     </fieldset>
                 </form>
             </div>
         </section>
-        <div id="copyright">
+        <div id="copyright" class="footer_copyright">
             <p>&copy; 2025 Авион мебель</p>
-            <a href="https://telegram.org"><img src="./assets/icons/telegram_logo_icon_147228.png" alt="Логотип Телеграм"></a>
-            <a href="https://vk.ru"><img src="./assets/icons/vk_logo_icon_188443.png" alt="Логотип ВК"></a>
-            <a href="https://whatsapp.com"><img src="./assets/icons/whatsapp_logo_icon_147205.png" alt="Логотип Востапп"></a>
+            <div>
+                <a href="https://telegram.org"><img src="./assets/icons/telegram_logo_icon_147228.png" alt="Логотип Телеграм"></a>
+                <a href="https://vk.ru"><img src="./assets/icons/vk_logo_icon_188443.png" alt="Логотип ВК"></a>
+                <a href="https://whatsapp.com"><img src="./assets/icons/whatsapp_logo_icon_147205.png" alt="Логотип Востапп"></a>
+            </div>
         </div>
     </footer>
 </body>
